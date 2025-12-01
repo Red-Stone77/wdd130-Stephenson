@@ -1,32 +1,52 @@
 /* Basic Reset */
+
+/* Site Colors: #19D3F1 #A235FE #448EFC #0C0526*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Orbitron;
+    src: url(fonts/Orbitron/Orbitron-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Zalando_Sans_Expanded;
+    src: url(fonts/Zalando_Sans_Expanded/ZalandoSansExpanded-VariableFont_wght.ttf) format("truetype");
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
+    font-family: Zalando_Sans_Expanded, Arial, sans-serif;
+    background-color: #19D3F1;
     line-height: 1.5;
     padding-bottom: 50px;
 }
 
 /* HEADER */
 header {
+    font-family: Orbitron, Arial, sans-serif;
     display: flex;
     align-items: center;
     padding: 20px;
-    background: #e2e2e2;
-    border-bottom: 2px solid #ccc;
+    background: #0c0526;
+    border-bottom: 2px solid #448EFC;
+    color: #19D3F1;
 }
 
 .logo {
-    font-size: 2.5rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-right: 15px;
     text-decoration: none;
     color: black;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    border-radius: 8px;
 }
 
 header h1 {
@@ -115,5 +135,9 @@ footer nav {
 footer a {
     margin: 0 10px;
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #A235FE;
 }
