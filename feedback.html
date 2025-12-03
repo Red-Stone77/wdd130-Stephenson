@@ -12,45 +12,58 @@
         <h1>Rexburg Adventures</h1>
         <h3> We love to hear from you</h3>
     </header>
-        <form action="#" method="post" id="feedback-form1">
-        <h2>Feedback Form</h2>
+        <section>
+            <form action="#" method="post" id="feedback-form1">
+                <h2>Feedback Form</h2>
 
-        <label for="name">What is it called:</label>
-        <input type="text" id="name" name="name" placeholder="Name of Location" required><br>
+                <label for="name">What is it called:</label>
+                <input type="text" id="name" name="name" placeholder="Name of Location" required><br>
 
-        <label for="address">What is the address:</label>
-        <input type="text" id="address" name="address" placeholder="Location Address" required><br>
+                <label for="address">What is the address:</label>
+                <input type="text" id="address" name="address" placeholder="Location Address" required><br>
 
-        <label for="price">Pricing:</label>
-        <select id="price" name="price" required><br>
-            <option value="">Select price</option>
-            <option value="$">$</option>
-            <option value="$$">$$</option>
-            <option value="$$$">$$$</option>
-            <option value="$$$$">$$$$</option>
-        </select>
-        <br>
-        <label for="description">Description:</label><br>
-        <textarea id="description" name="description" rows="5" placeholder="Write your feedback here..."></textarea><br>
+                <label for="price">Pricing:</label>
+                <select id="price" name="price" required><br>
+                    <option value="">Select price</option>
+                    <option value="$">$</option>
+                    <option value="$$">$$</option>
+                    <option value="$$$">$$$</option>
+                    <option value="$$$$">$$$$</option>
+                </select>
+                <br>
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" rows="5" placeholder="Write your feedback here..."></textarea><br>
 
-        <button type="submit">Submit Feedback</button>
-    </form>
-     <br><br>
-    <p>On the scale 1-10, how useful would you say this site for you?</p>
-    <p>Please provide any comments and suggestion below:</p>
-    <form form action="#" method="post" id="feedback-form2">
-         <label for="rating">Rating:</label>
-    <select id="rating" name="rating" required>
-        <option value="">Select rating</option>
-        <option value="excellent">Excellent</option>
-        <option value="good">Good</option>
-        <option value="average">Average</option>
-        <option value="poor">Poor</option>
-    </select>
-    <br>
-    <label for="comment">Commment:</label><br>
-        <textarea id="comment" name="comment" rows="5" placeholder="Your comment"></textarea><br>
-    </form>
+                <button type="submit">Submit Feedback</button>
+             </form>
+        </section>
+        <br><br>
+        <section>
+           <form>
+                <p>On the scale 1-10, how useful would you say this site for you?</p>
+                <p>Please provide any comments and suggestion below:</p>
+                <form form action="#" method="post" id="feedback-form2">
+                    <label for="rating">Rating:</label>
+                <label for="rating">Rating:</label>
+                    <select id="rating" name="rating">
+                        <option value="">Select rating</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                <br>
+                <label for="comment">Commment:</label><br>
+                    <textarea id="comment" name="comment" rows="5" placeholder="Your comment"></textarea><br>
+                </form>
+        </section>
+    
 
     <footer>
         <p>© 2025 Rexburg Adventures</p>
