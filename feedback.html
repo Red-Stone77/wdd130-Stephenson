@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rexburg Adventures</title>
-    
 </head>
+
 <body>
     <header>
         <a href="index.html" class="logo"><img src="images/logo.jpg" alt="Logo"></a>
         <h1>Rexburg Adventures</h1>
-        <h3> We love to hear from you</h3>
+        <h3>We love to hear from you</h3>
     </header>
+
+    <div class="form-box">
         <section>
             <form action="#" method="post" id="feedback-form1">
                 <h2>Feedback Form</h2>
@@ -23,7 +25,7 @@
                 <input type="text" id="address" name="address" placeholder="Location Address" required><br>
 
                 <label for="price">Pricing:</label>
-                <select id="price" name="price" required><br>
+                <select id="price" name="price" required>
                     <option value="">Select price</option>
                     <option value="$">$</option>
                     <option value="$$">$$</option>
@@ -31,38 +33,44 @@
                     <option value="$$$$">$$$$</option>
                 </select>
                 <br>
+
                 <label for="description">Description:</label><br>
                 <textarea id="description" name="description" rows="5" placeholder="Write your feedback here..."></textarea><br>
 
                 <button type="submit">Submit Feedback</button>
-             </form>
+            </form>
         </section>
-        <br><br>
+    </div>
+
+    <br><br>
+
+    <div class="form-box">
         <section>
-           <form>
+            <form action="#" method="post" id="feedback-form2">
                 <p>On the scale 1-10, how useful would you say this site for you?</p>
                 <p>Please provide any comments and suggestion below:</p>
-                <form form action="#" method="post" id="feedback-form2">
+
                 <label for="rating">Rating:</label>
-                    <select id="rating" name="rating">
-                        <option value="">Select rating</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </select>
+                <select id="rating" name="rating">
+                    <option value="">Select rating</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
                 <br>
-                <label for="comment">Commment:</label><br>
-                    <textarea id="comment" name="comment" rows="5" placeholder="Your comment"></textarea><br>
-                </form>
+
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" name="comment" rows="5" placeholder="Your comment"></textarea><br>
+            </form>
         </section>
-    
+    </div>
 
     <footer>
         <p>© 2025 Rexburg Adventures</p>
@@ -72,7 +80,5 @@
         </nav>
     </footer>
 
-</body>
-</html>
 </body>
 </html>
