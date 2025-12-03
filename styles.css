@@ -22,6 +22,7 @@ body {
     background-color: #19D3F1;
     line-height: 1.5;
     padding-bottom: 50px;
+    color: #A235FE;
 }
 
 /* HEADER */
@@ -40,17 +41,17 @@ header {
     font-weight: bold;
     margin-right: 15px;
     text-decoration: none;
-    color: black;
+    color: #0c0526;
 }
 
 .logo img {
-    height: 50px;
+    height: 100px;
     width: auto;
     border-radius: 8px;
 }
 
 header h1 {
-    font-size: 1.8rem;
+    font-size: 5rem;
     letter-spacing: 1px;
 }
 
@@ -65,18 +66,22 @@ header h1 {
 /* PICK OF THE WEEK */
 .pick-of-week {
     padding: 20px;
-    background: #fff;
+    background: #0c0526;
     margin-top: 20px;
     border-radius: 8px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px #0c0526;
 }
 
 .pick-of-week h2 {
     margin-bottom: 10px;
     text-align: center;
+}
+
+.pick-of-week a:hover {
+    color: #448EFC;
 }
 
 .pow-container {
@@ -108,12 +113,12 @@ header h1 {
     margin: 15px 0;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px #0c0526;
 }
 
 .activity img {
-    width: 120px;
-    height: 120px;
+    width: 250px;
+    height: 200px;
     border-radius: 10px;
     object-fit: cover;
     margin-right: 20px;
@@ -139,5 +144,5 @@ footer a {
 }
 
 footer a:hover {
-    color: #A235FE;
+    color: #448EFC;
 }
